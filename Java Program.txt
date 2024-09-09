@@ -1,0 +1,131 @@
+for compile= javac.(class name) .java
+
+1
+class Demo {
+    public static void main(String[] args) {
+        System.out.println("hello world");
+    }
+}
+
+
+
+2
+class Demo {
+    int x=5;
+    public static void main(String[] args) {
+        Demo demo=new Demo();
+        System.out.println(demo.x);
+    }
+}
+
+
+
+3 in this we have to creat one more class 
+ class Main {
+     int x=17;
+ }
+ class second{
+    public static void main(String[] args) {
+        Main main=new Main();
+        System.out.println(main.x);
+    }
+}
+
+
+
+
+4
+class PracticCons {
+    int x;
+    public PracticCons(){
+        x=17;
+    }
+    public static void main(String[] args) {
+        PracticCons pCons=new PracticCons();
+        System.out.println(pCons.x);
+    }
+}
+
+
+
+class PracticCons {
+    int x;
+    public PracticCons(int y){
+        x=y;
+    }
+    public static void main(String[] args) {
+        PracticCons pCons=new PracticCons(18);
+        System.out.println(pCons.x);
+    }
+}
+
+
+
+
+
+
+
+
+5
+class PracticCons2 {
+    int modelyear;
+    String modeName;
+    public PracticCons2(int year, String name){
+        modelyear=year;
+        modeName=name;
+    }
+    public static void main(String[] args) {
+        PracticCons2 pCons2=new PracticCons2(1628,"jaat");
+        System.out.println(pCons2.modelyear+" "+pCons2.modeName);
+    }
+}
+
+
+
+
+
+6
+class PracticCons2 {
+    int height,width,breadth;
+    String modeName;
+    public PracticCons2(int h,int w, int b ){
+        height=h;
+        width=w;
+        breadth=b;
+    }
+    public static void main(String[] args) {
+         
+        PracticCons2 pCons2=new PracticCons2(1 ,2 ,3);
+        System.out.println(pCons2.height+" "+pCons2.width+" "+pCons2.breadth);
+    }
+}
+
+
+class PracticCons2 {
+    int height,width,breadth;
+    String modeName;
+     public PracticCons2( String name){
+     modeName=name;
+     }
+    public PracticCons2(int h,int w, int b ){
+        height=h;
+        width=w;
+        breadth=b;
+    }
+    public static void main(String[] args) {
+         PracticCons2 pCons3=new PracticCons2("Rectangle");
+        System.out.println(pCons3.modeName);
+        PracticCons2 pCons2=new PracticCons2(1 ,2 ,3);
+        System.out.println(pCons2.height+" "+pCons2.width+" "+pCons2.breadth);
+    }
+}
+
+
+
+7 divid
+class Exceptions {
+    public static void main(String[] args){
+        int x=100/34;
+        System.out.println(x);
+    }
+}
